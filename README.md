@@ -8,10 +8,10 @@ Made collaboratively by the members of the club in HTML, CSS & Javascript.
 Any changes made by a non-officer must be done in a separate branch and reviewed before merging into the main branch.
 
 
-## <ins> Urgent To-Dos and Assignments (Team Leads)</ins>
+## Urgent To-Dos and Assignments (Team Leads)
 * Hosting
-  **AWS (Philip)
-  **Github Posting (Tunji)
+  *AWS (Philip)
+  *Github Posting (Tunji)
 * About (Ethan)
 * Contacts (Will)
 * Sliding Images (Alysa) -> (Tunji to provide images)
