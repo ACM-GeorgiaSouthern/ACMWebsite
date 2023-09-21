@@ -29,8 +29,9 @@ Check out the discord for other best practices under the website details channel
 
 
 ## Current Plans
-
-(Images to be posted)
+![To do List](docs/To_do_list.jpg)
+![Reuired Wireframe](docs/required_features.jpg)
+![Extra Features](docs/extra_features.jpg)
 
 As you can see, we're just starting out . We'll see where this goes!
 
