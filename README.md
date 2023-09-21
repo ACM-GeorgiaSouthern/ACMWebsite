@@ -10,13 +10,13 @@ Any changes made by a non-officer must be done in a separate branch and reviewed
 Naming Convention for Branches: Just keep it short but related to what you're working on. <br>
 If you're working on the about section, name your branch "About", if Sliding Images, name it "slideImgs" or something like that. Short but descriptive.
 
+The site is up at https://acmgsu.com/ <br>
+
 Check out the discord for other best practices under the website details channel. <a href = https://discord.com/channels/753431647482806302/1150976318658330705>Link</a>
 
 ## Urgent To-Dos and Assignments (Team Leads)
-* Hosting
-  *AWS (Philip)
-  *Github Posting (Tunji)
-* About (Ethan)
+* Hosting (Done) 
+* About (Ethan) 
 * Contacts (Will)
 * Sliding Images (Alysa) -> (Tunji to provide images)
 * Visitor Count (Tunji / Count)
@@ -25,7 +25,7 @@ Check out the discord for other best practices under the website details channel
 
 ## Current State of the main branch:
 
-![Alt text](images/progress_image_3.png)
+![Alt text](src/images/progress_image_3.png)
 
 
 ## Current Plans
