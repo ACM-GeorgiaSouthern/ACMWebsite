@@ -34,5 +34,5 @@
 * DO NOT MAKE ANY COMMITS TO THE MAIN BRANCH (master). This is the main code base that our website feeds off, and should only be changed through pull requests or by officers.
 * **Each new major feature being implemented must be done on a separate branch**. (This is to make sure we know what changes are being made, and to make sure we don't break anything)
 * *The site is being hosted on AWS, if you want to publish your changes to a dummy site, you will need to contact an officer to get access to the AWS account.*
-* To actually see your changes, you can either save your changes and open your file directly in the browser, or use a live server extension in your IDE. ![Example live server](live_server.png)
+* To actually see your changes, you can either save your changes and open your file directly in the browser, or use a live server extension in your IDE. ![Example live server](liver_server.png)
 
