@@ -1,65 +1,53 @@
 * {
     box-sizing: border-box;
-    margin: 5;
-    padding: 0;
-    font-family: 'Kumbh Sans', sans-serif
+    font-family: 'Kumbh Sans', sans-serif'
 }
-
 
 /* Navigation Bar Basics*/
     .navbar {
         background: #34b7eb;
         height: fit-content;
-        width: 100%;
-        display: flex;
         font-size: 1.2rem;
         position: sticky;
-        justify-content: space-between;
         z-index: 1;
-        margin: 0 auto;
-        padding: auto auto;
-    }
-
-    .navbar__menu {
-        float: inline-end;
-    }
-
-    .navbar__item {
-        margin: 0 50px;
     }
 
     .navbar__logo {
         min-height: auto;
         max-height: max-content;
     }
-/* Navigation Bar*/
 
-    /* Nav Styling */
+    .navbar__menu {
+        display: flex;
+        float: right;
+        margin: 0px 100px 0px;
+    }
+
+    .navbar__item {
+        margin: 0 50px;
+        justify-content: space-around;
+        text-wrap: nowrap;
+    }
+
     nav ul li{
         list-style-type: none;
         display: inline-block;
         padding: 10px 25px;
         text-align: center;
     }
-    nav ul li a{
+
+    /*hover effect*/
+    .navbar__links {
         color: white;
         text-decoration: none;
         font-weight: bold;
-        text-transform: capitalize;
+        display: inline-block;
+        width:5%;
+        margin: 0 5px;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
     }
-
-    /*hover effect*/
-.navbar__links {
-    display: inline-block;
-    position: relative;
-    color: #ffffff;
-    width:5%;
-    margin: 0 5px;
-    position: absolute;
-    top: 50%;
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
   
   .navbar__links::after {
     content: '';
@@ -76,12 +64,13 @@
   
   .navbar__links:hover::after {
     transform: scaleX(1);
-    transform-origin: bottom left;
+    transform-origin: left;
   }
+
 /*hover effect*/
 .content{
     position: absolute;
-    margin: 150px auto;
+    margin: 200px auto auto;
     top: 50%;
     left: 8%;
     text-align: start;
@@ -101,9 +90,11 @@
 
 .visitor_count{
     /* Add your styles here */
-    background-color: black;
-    color: white;
     position: absolute;
-    bottom: 0px;
 }
+
+hr.solid {
+    border-top: 3px solid #bbb;
+    margin: auto -100px auto;
+  }
     
