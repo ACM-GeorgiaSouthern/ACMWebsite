@@ -8,36 +8,24 @@
 
 /* Navigation Bar Basics*/
     .navbar {
-    background: #34b7eb;
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    font-size: 1.2rem;
-    position: relative;
-    margin: 0;
-    z-index: 999;
-    }
-
-
-    .navbar__container {
-    display: flex;
-    justify-content: space-between;
-    height: 80px;
-    z-index: 1;
-    height: fit-content;
-    width: 100%;
-    max-width: 1300px;
-    margin: 0 auto;
-    padding: auto auto;
+        background: #34b7eb;
+        height: fit-content;
+        width: 100%;
+        display: flex;
+        font-size: 1.2rem;
+        position: sticky;
+        justify-content: space-between;
+        z-index: 1;
+        margin: 0 auto;
+        padding: auto auto;
     }
 
     .navbar__menu {
-        display: inline-block;
+        float: inline-end;
     }
 
     .navbar__item {
-        margin: 0px 0px 0px 100px;    
+        margin: 0 50px;
     }
 
     .navbar__logo {
@@ -45,8 +33,6 @@
         max-height: max-content;
     }
 /* Navigation Bar*/
-
-
 
     /* Nav Styling */
     nav ul li{
@@ -112,3 +98,12 @@
     max-width: 1300px;
 }
     /* */
+
+.visitor_count{
+    /* Add your styles here */
+    background-color: black;
+    color: white;
+    position: absolute;
+    bottom: 0px;
+}
+    
