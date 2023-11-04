@@ -17,7 +17,7 @@
     }
     /* Navigation Bar*/
 
-    .navbar ul{
+    nav ul{
         list-style-type: none;
         margin: auto 3%;
         width: fit-content;
@@ -57,4 +57,22 @@
 
     .free_picture{
         width: 50%;
+    }
+
+    .media_content{
+        display: flex;
+        justify-content: space-between;
+        margin: 4% auto;
+        width: 80%;
+    }
+
+    .contact_title{
+        margin: 2% auto;
+        text-align: center;
+        color: #D2B48C;
+    }
+
+    .media_box{
+        display: inline-block;
+        margin-left: 50px;
     }
