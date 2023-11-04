@@ -15,7 +15,7 @@
         justify-content: center;
         font-size: 1.2rem;
         position: relative;
-        margin: 0;
+        margin: auto;
         z-index: 999;
     }
 
@@ -95,7 +95,7 @@
     /*hover effect*/
     .content{
         position: absolute;
-        margin: 150px auto;
+        margin: 200px auto;
         top: 50%;
         left: 8%;
         text-align: start;
