@@ -3,43 +3,6 @@
         font-family: 'Kumbh Sans', sans-serif
     }
 
-    /*Navbar for Header*/
-    .navbar {
-        background: #34b7eb;
-        font-size: 1.2rem;
-        width:100%;
-        position: relative;
-        justify-content: space-between;
-        display: flex;
-    }
-
-    .navbar__logo {
-        max-height: max-content;
-    }
-
-    nav ul{
-        list-style-type: none;
-        margin: auto 3%;
-        width: fit-content;
-    }
-
-    .navbar__item {
-        display: inline-block;
-    }
-    
-    .navbar__item a{
-        text-decoration: none;
-        font-weight: bold;
-        text-transform: capitalize;
-        color: #ffffff;
-        margin-left: 40px;
-    }
-
-    .navbar__item a:hover{
-        color: #000000;
-    }
-    /*Navbar for Header*/
-
     /*Index Styles*/
     .content{
         position: absolute;
@@ -83,8 +46,14 @@
     /*Contact Styles*/
 
     /*About Styles*/
-    .about_title{
+    #about_title{
         margin: 2% auto;
         text-align: center;
+    }
+
+    .personnel{
+        border: #000000 solid 1px;
+        width: 50%;
+        margin: auto auto 1% 5%;
     }
     /*About Styles*/
