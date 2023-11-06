@@ -1,87 +1,82 @@
-    /*Navbar for Header*/
-    .navbar {
-        background: #34b7eb;
-        font-size: 1.2rem;
-        width:100%;
-        justify-content: space-between;
-        display: flex;
-    }
+/* Navbar for Header */
+.navbar {
+    background: #34b7eb;
+    font-size: 1.2rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
-    .navbar__logo {
-        max-height: max-content;
-    }
+.navbar__logo {
+    max-height: max-content; /* Change max-height as needed */
+}
 
-    nav ul{
-        list-style-type: none;
-        margin: auto 3%;
-        width: fit-content;
-    }
+nav ul {
+    list-style-type: none;
+    margin: auto 3%;
+    width: fit-content;
+}
 
-    .navbar__item {
-        display: inline-block;
-    }
-    
-    .navbar__item a, 
-    .dropbtn{
-        text-decoration: none;
-        font-weight: bold;
-        text-transform: capitalize;
-        color: #ffffff;
-        margin-left: 40px;
-    }
+.navbar__item {
+    display: inline-block;
+    margin-left: 80px;
+}
 
-    .navbar__item a:hover,
-    .dropdown-content a:hover{
-        color: #000000;
-    }
-/* Dropdown Button */
+.navbar__item a,
+.dropbtn {
+    text-decoration: none;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: #ffffff;
+}
 
-.dropDown{
+.navbar__item a:hover,
+.dropdown-content a:hover {
+    color: #000000;
+}
+
+/* Dropdown Styles */
+
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
     position: relative;
     display: inline-block;
 }
 
-  
+/* Dropdown Button */
 .dropbtn {
     background-color: inherit;
     color: white;
     font-size: inherit;
     border: none;
     cursor: pointer;
-  }
-  
-  /* Dropdown button on hover & focus */
-  
-  /* The container <div> - needed to position the dropdown content */
-  .dropdown {
-    position: relative;
-    display: inline-block;
-  }
-  
-  /* Dropdown Content (Hidden by Default) */
-  .dropdown-content {
+}
+
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
     display: none;
     position: absolute;
     background-color: #34b7eb;
-    max-width: max-content;
-    min-width: 160px;
+    width: max-content;
     z-index: 1;
     border: 0.1px solid #000000;
-  }
-  
-  /* Links inside the dropdown */
-  .dropdown-content a {
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
     color: #ffffff;
     padding: 12px 16px;
     border: 0.1px solid #000000;
     text-decoration: none;
     display: block;
-  }
+}
 
-  .show {
-        display:block;
-    }
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {
+    color: #000000;
+}
 
-
-
-    /*Navbar for Header*/
+/* Show the dropdown menu */
+.show {
+    display: block;
+}
